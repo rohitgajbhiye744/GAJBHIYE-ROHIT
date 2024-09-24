@@ -14,6 +14,7 @@ import { TbBrandCpp } from "react-icons/tb";
 import { FaJava } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoFigma } from "react-icons/io5";
 import { RiReactjsLine } from "react-icons/ri";
@@ -63,47 +64,52 @@ export const BIO = [
 
 export const SKILLS = [
   {
-    icon: <FaPython className="text-4xl text-blue-500 lg:text-5xl" />, // Python
+    icon: <FaPython className="text-4xl text-blue-500 lg:text-5xl" />, 
     name: "Python",
     experience: "2+ years",
   },
   {
-    icon: <TbBrandCpp className="text-4xl text-blue-500 lg:text-5xl" />, // C++
+    icon: <TbBrandCpp className="text-4xl text-blue-500 lg:text-5xl" />, 
     name: "C++",
     experience: "1+ year",
   },
   {
-    icon: <FaJava className="text-4xl text-red-600 lg:text-5xl" />, // Java
+    icon: <FaJava className="text-4xl text-red-600 lg:text-5xl" />, 
     name: "Java",
     experience: "0.5+ year",
   },
   {
-    icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />, // HTML
+    icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />, 
     name: "HTML",
     experience: "1.5+ years",
   },
   {
-    icon: <FaCss3Alt className="text-4xl text-blue-600 lg:text-5xl" />, // CSS
+    icon: <FaCss3Alt className="text-4xl text-blue-600 lg:text-5xl" />, 
     name: "CSS",
     experience: "1.5+ years",
   },
   {
-    icon: <IoLogoJavascript className="text-4xl text-yellow-500 lg:text-5xl" />, // JavaScript
+    icon: <FaBootstrap className="text-4xl text-purple-600 lg:text-5xl" />, 
+    name: "Bootstrap",
+    experience: "1.5+ years",
+  },
+  {
+    icon: <IoLogoJavascript className="text-4xl text-yellow-500 lg:text-5xl" />, 
     name: "JavaScript",
     experience: "0.5+ year",
   },
   {
-    icon: <IoLogoFigma className="text-4xl text-purple-600 lg:text-5xl" />, // Figma
+    icon: <IoLogoFigma className="text-4xl text-purple-600 lg:text-5xl" />, 
     name: "Figma",
     experience: "0.5+ year",
   },
   {
-    icon: <RiReactjsLine className="text-4xl text-blue-500 lg:text-5xl" />, // React
+    icon: <RiReactjsLine className="text-4xl text-blue-500 lg:text-5xl" />, 
     name: "React",
     experience: "0.5+ year",
   },
   {
-    icon: <RiTailwindCssFill className="text-4xl text-blue-500 lg:text-5xl" />, // TailwindCSS
+    icon: <RiTailwindCssFill className="text-4xl text-blue-500 lg:text-5xl" />, 
     name: "TailwindCSS",
     experience: "0.5+ year",
   },
