@@ -13,7 +13,7 @@ const EducationSection = () => {
             <motion.div 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: index*0.5 }}
+            transition={{ duration: 1, delay: index*0.2 }}
             key={index} className="mb-6 p-10">
                 <h3 className="text-xl font-semibold">{edu.degree}</h3>
                 <p className="text-lg">{edu.institution}</p>
