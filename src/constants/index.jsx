@@ -44,7 +44,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/rohitgajbhiye744/GAJBHIYE-ROHIT",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const PROJECTS = [
     description:
       "I redesign UI and UX design of an IPL Team Website made using Figma Showcasing my skills and strong command on figma. ",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://www.figma.com/proto/DxBg1f1uZMTqUCjDFuE6QE/Untitled?node-id=128-230&starting-point-node-id=128%3A230",
   },
 ];
 

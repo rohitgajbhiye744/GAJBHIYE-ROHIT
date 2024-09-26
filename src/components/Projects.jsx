@@ -31,7 +31,7 @@ const Projects = () => {
                         <p className="mb-12 p-4 ">{project.description}</p>
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300">
                             <div className="flex items-center">
-                                <span>View on GitHub</span>
+                                <span>View</span>
                                 <MdArrowOutward />
                             </div>
                         </a>
